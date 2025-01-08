@@ -33,4 +33,4 @@ The Peace Garden Application is a cloud-based project deployed on **AWS** with a
 ---
 
 ### 📖 Documentation
-Detailed documentation for deployment and security configurations is available [here](#).
+
