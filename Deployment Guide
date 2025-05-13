@@ -1,0 +1,16 @@
+1. Install Requirements
+Make sure you have the following:
+sudo apt install terraform awscli git -y
+2. Configure AWS CLI
+aws configure
+# Enter Access Key, Secret Key, Region
+3. Initialize and Apply Terraform
+terraform init
+terraform plan
+terraform apply -auto-approve
+4. Push to GitHub
+  git init
+git remote add origin https://github.com/YOUR_USERNAME/peace-garden-app.git
+git add .
+git commit -m "Initial commit"
+git push -u origin master
